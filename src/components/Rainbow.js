@@ -20,8 +20,14 @@ const Rainbow = () => (
     <NavLink to="/blue" activeClassName="active">
       Blue Only
     </NavLink>
-    <NavLink to="/red/yellow" activeClassName="active">
-      Add Yellow
+    <NavLink to="/blue/indigo" activeClassName="active">
+      Add Indigo
+    </NavLink>
+    <NavLink to="/green" activeClassName="active">
+      Green Only
+    </NavLink>
+    <NavLink to="/violet" activeClassName="active">
+      Violet Only
     </NavLink>
 
     <div id="rainbow">
