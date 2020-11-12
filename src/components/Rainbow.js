@@ -1,5 +1,9 @@
 import React from "react";
 import { Route, Link, NavLink } from "react-router-dom";
+import Red from './Red';
+import Green from './Green';
+import Blue from './Blue';
+import Violet from './Violet';
 
 const Rainbow = () => (
   <div>
