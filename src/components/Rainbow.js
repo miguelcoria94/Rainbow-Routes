@@ -8,7 +8,7 @@ import Violet from './Violet';
 const Rainbow = () => (
   <div>
     <h1>Rainbow Router!</h1>
-    <NavLink to="/red" activeClassName="active">
+    <NavLink exact to="/red" activeClassName="active">
       Red Only
     </NavLink>
     <NavLink to="/red/orange" activeClassName="active">
@@ -17,7 +17,7 @@ const Rainbow = () => (
     <NavLink to="/red/yellow" activeClassName="active">
       Add Yellow
     </NavLink>
-    <NavLink to="/blue" activeClassName="active">
+    <NavLink exact to="/blue" activeClassName="active">
       Blue Only
     </NavLink>
     <NavLink to="/blue/indigo" activeClassName="active">
@@ -27,7 +27,7 @@ const Rainbow = () => (
       Green Only
     </NavLink>
     <NavLink to="/violet" activeClassName="active">
-      Violet Only
+      Violet 
     </NavLink>
 
     <div id="rainbow">
