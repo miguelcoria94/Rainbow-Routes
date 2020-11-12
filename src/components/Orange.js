@@ -1,7 +1,7 @@
 import React from "react";
 
 const Color = () => (
-  <div>
+  <div className="box">
     <h3 className="orange">orange</h3>
   </div>
 );

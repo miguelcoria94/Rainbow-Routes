@@ -6,7 +6,7 @@ import Blue from './Blue';
 import Violet from './Violet';
 
 const Rainbow = () => (
-  <div>
+  <div className="a-tags">
     <h1>Rainbow Router!</h1>
     <NavLink exact to="/red" activeClassName="active">
       Red Only

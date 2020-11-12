@@ -1,3 +1,7 @@
+.a-tags {
+    display: flex;
+}
+
 h4 {
   color: darkblue;
   cursor: pointer;
@@ -63,8 +67,14 @@ h3 {
 a {
   display: block;
   margin-bottom: 10px;
+  font-size: 20px;
+  margin: 40px;
 }
 
 .active {
     font-weight: 700
+}
+
+.box {
+    display: block;
 }
