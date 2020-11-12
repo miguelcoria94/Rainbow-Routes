@@ -7,7 +7,7 @@ const Color = () => (
     <h2 className="blue">blue</h2>
     {/* Links here */}
 
-    {/* Routes here */}
+    <Route path="/blue/indigo" component={Indigo} />
   </div>
 );
 
